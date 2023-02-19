@@ -1,0 +1,65 @@
+* {
+  margin: 1rem;
+  padding: 0;
+  box-sizing: border-box;
+}
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Righteous&display=swap');  
+
+body {
+    background-color: rgb(231, 207, 176);
+}
+
+.container {
+  width: 600px;
+  height: 900px;
+  border: 1px solid red;
+  margin: 0 auto;
+  animation: container 5s ease-in-out;
+  opacity: 0;
+  animation-iteration-count: infinite;
+}
+
+@keyframes container {
+  100% {opacity: 1}
+}
+
+
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    color: red;
+    position: relative;
+    top: -330px;
+    animation: heading 3s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes heading {
+  100% {top:0}
+  
+}
+
+.footer {
+  text-align: center;
+  animation: footer 3s ease-in-out forwards;
+  animation-iteration-count: infinite;
+  transform: rotateX(180deg);
+}
+
+@keyframes footer {
+  50% {transform: rotate(180deg)}
+}
+
+
+
+
+
+
+
+
+@keyframes rice b {
+  100% {opacity: 1}
+}
+    
